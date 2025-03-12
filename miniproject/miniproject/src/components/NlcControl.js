@@ -1,47 +1,44 @@
 import React, { Component } from 'react';
+import NlcControl from '../../../../Nlc-2310900014-k23CNT2/nlc-2310900014-k23cnt2/src/Component/NlcMemberAdd';
 
 class NlcControl extends Component {
     render() {
         return (
             <div>
-                 <div className="card-header">
-                <div className="row">
-                    <div className="col-3 ">
-                        <button type="button" className="btn btn-primary btn-icon-text">
-                            Thêm mới sinh viên
-                        </button>
-                    </div>
-                    <div className="col-6 ">
-                        <form className="search-form" action="#">
-                            <i className="icon-search" />
-                            <input
-                                type="search"
-                                className="form-control"
-                                placeholder="Search Here"
-                                title="Search here"
-                            />
-                            <button className="btn btn-primary btn-icon-text">
-                                Tìm kiếm
+                <div className="card-header">
+                    <div className="row">
+                        <div className="col-3 ">
+                            <button type="button" className="btn btn-primary btn-icon-text">
+                                Thêm mới sinh viên
                             </button>
-                        </form>
-                    </div>
-                    <div className="col-3 d-flex align-items-center">
-                        <select className="form-control">
-                            <option value="">Sắp xếp</option>
-                            <option value="">ABC def</option>
-                            <option value="">ABC def</option>
-                            <option value="">ABC def</option>
-                        </select>
+                        </div>
+                        <div className="col-6 ">
+                            <form className="search-form" action="#">
+                                <i className="icon-search" />
+                                <input
+                                    type="search"
+                                    className="form-control"
+                                    placeholder="Search Here"
+                                    title="Search here"
+                                />
+                                <button className="btn btn-primary btn-icon-text">
+                                    Tìm kiếm
+                                </button>
+                            </form>
+                        </div>
+                        <div className="col-3 d-flex align-items-center">
+                            <select className="form-control">
+                                <option value="">Sắp xếp</option>
+                                <option value="">ABC def</option>
+                                <option value="">ABC def</option>
+                                <option value="">ABC def</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
-            </div>
-            
             </div>
         );
     }
 }
 
 export default NlcControl;
-
-
-
