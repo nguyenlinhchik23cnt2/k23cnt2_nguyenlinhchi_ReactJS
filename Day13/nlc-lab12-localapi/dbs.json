@@ -1,0 +1,21 @@
+{
+    "users":[
+        {
+            "fullName":"nguyen linh chi ",
+            "age":"20",
+            "class":"k23cnt2"
+        },
+        {
+            "fullName":"nguyen linh chi ",
+            "age":"20",
+            "class":"k23cnt2"
+        },
+        {
+            "fullName":"nguyen linh chi ",
+            "age":"20",
+            "class":"k23cnt2"
+        }
+    ],
+    "studentID":"SV001",
+    "studentsName":"nguyen van A"
+  }
